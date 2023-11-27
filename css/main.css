@@ -1,0 +1,983 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+div,
+p,
+input,
+header {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1105px;
+    margin: 0 auto;
+}
+
+.first {
+    background: url('../img/background.png')no-repeat center center /cover, #FECE00D4;
+}
+
+.menu_wrap {
+    display: flex;
+    justify-content: left;
+    padding-top: 26px;
+}
+
+.header_logo_mobile {
+    display: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_left {
+    width: 629px;
+    padding-top: 24px;
+}
+
+.main_title {
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.76px;
+}
+
+.main_text {
+    width: 678px;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.4px;
+}
+
+.main_text span {
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.4px;
+}
+
+.main_data {
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+    margin-top: 53px;
+}
+
+.main_data_rect {
+    border-radius: 10px;
+    background: rgba(66, 66, 66, 0.80);
+    width: 209px;
+    height: 60px;
+}
+
+.main_number {
+    display: block;
+    margin-top: 10px;
+}
+
+.main_number_text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.6px;
+    margin: 5px 13px 7px 15px;
+}
+
+.main_number_wrap {
+    display: flex;
+
+}
+
+.month {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    margin: 0;
+}
+
+.start {
+    color: #D2E400;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    margin: 0;
+}
+
+.main_btn_wrap {
+    display: flex;
+    margin-top: 53px;
+    margin-bottom: 66px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.btn_call {
+    background: #E10000;
+    width: 285px;
+    height: 70px;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn_consult {
+    margin-left: 16px;
+    width: 279px;
+    height: 70px;
+    border: 1px solid #171717;
+    background-image: none;
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    color: #171717;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+
+}
+
+.main_img {
+    width: 528px;
+    height: 687px;
+
+}
+
+.second_title {
+    color: #181818;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+.type {
+    width: 268px;
+    height: 721px;
+    border-radius: 10px;
+    border: 1px solid rgba(72, 72, 72, 0.40);
+    background: rgba(196, 196, 196, 0.00);
+    text-align: center;
+}
+
+.type_title {
+    color: #1B002F;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 108%;
+    margin-top: 32px;
+}
+
+.price {
+    color: #1B002F;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    margin-top: 32px;
+}
+
+.discount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 18.742px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.427px;
+    border-radius: 4.685px;
+    background: #E10000;
+    width: 69px;
+    height: 37px;
+    position: relative;
+    top: -68px;
+    left: 184px;
+}
+
+.cost {
+    color: #A7ACBF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    width: 117px;
+    margin-top: -92px;
+    background: url('../img/line.png')no-repeat center center, #fff;
+    margin-left: 23px;
+}
+
+.second_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    margin-bottom: 92px;
+}
+
+.advantage {
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.item {
+    background: url('../img/li.jpg')no-repeat left center, #fff;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    color: #2A2A2A;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item span {
+    color: #1B002F;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.prepayment_text {
+    color: #A7ACBF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.prepayment {
+    color: #1B002F;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    text-align: left;
+    padding-left: 24px;
+    margin-top: 6px;
+    margin-bottom: 33px;
+}
+
+.payment_btn {
+    border-radius: 10px;
+    background: #E10000;
+    width: 220px;
+    height: 66px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 24px 8px;
+    margin-left: 24px;
+    margin-bottom: 6px;
+}
+
+.gift {
+    background: url('../img/gift.png')no-repeat left top / cover, #fff;
+    width: 1105px;
+    height: 361px;
+    border-radius: 20px;
+    margin-bottom: 96px;
+}
+
+.third {
+    background-color: #F5C618;
+    padding-top: 49px;
+}
+
+.third_title {
+    text-align: center;
+    color: #151515;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.third_text {
+    width: 424px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 23px;
+    color: #151515;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.order {
+    display: flex;
+    width: 553px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 34px;
+
+}
+
+.input_field {
+    width: 553px;
+    height: 80px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #686868;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.24px;
+    text-align: center;
+    border: 0;
+    margin-bottom: 12px;
+}
+
+.btn_order {
+    width: 553px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #E10000;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0;
+}
+
+.confidential {
+    width: 567px;
+    color: #151515;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 0 auto;
+    margin-top: 26px;
+    padding-bottom: 60px;
+}
+
+#success {
+    width: auto;
+    color: #E10000;
+    margin-top: 60px;
+    text-align: center;
+    font-family: Montserrat;
+    display: none;
+
+}
+
+.footer {
+    width: 100%;
+    background: #2A2A2A;
+}
+
+.footer_wrap {
+    width: 100%;
+    padding-left: 168px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_logo {
+    width: 210px;
+    height: 96px;
+    margin-left: 274px;
+
+}
+
+.footer_text {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -0.44px;
+    text-transform: uppercase;
+    width: 797px;
+}
+
+.legal {
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    width: 797px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 43px 500px 54px;
+
+}
+
+.vk {
+    margin: 0 auto;
+
+}
+
+.tg {
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        width: 819px;
+    }
+
+    .main {
+        padding-left: 55px;
+    }
+
+    .main_left {
+        width: 541px;
+
+    }
+
+    .main_title {
+        font-size: 27px;
+    }
+
+    .main_text {
+        width: 338px;
+        font-size: 22px;
+    }
+
+    .main_text span {
+        font-size: 22px;
+    }
+
+    .main_data_rec {
+        width: 173px;
+        height: 44px;
+    }
+
+    .main_data {
+        width: 363px;
+        margin-top: 25px;
+    }
+
+    .main_number {
+        margin-top: 6px;
+    }
+
+    .main_number_wrap {
+        width: 173px;
+        height: 44px;
+    }
+
+    .main_number_text {
+        font-size: 30px;
+    }
+
+    .month {
+        font-size: 16px;
+    }
+
+    .start {
+        font-size: 12px;
+    }
+
+    .main_data_rect {
+        width: 173px;
+        height: 44px;
+        border-radius: 10px;
+
+    }
+
+    .main_btn_wrap {
+        margin-top: 31px;
+        margin-bottom: 38px;
+    }
+
+    .btn {
+        width: 189px;
+        height: 52.051px;
+        font-size: 14px;
+    }
+
+    .btn_consult {
+        width: 213px;
+        margin-left: 8px;
+    }
+
+    .main_img {
+        width: 348px;
+        height: 453px;
+    }
+
+    .type {
+        width: 155px;
+        height: 566px;
+
+    }
+
+    .type_title {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 30px;
+    }
+
+    .discount {
+        font-size: 12px;
+        width: 46px;
+        height: 23px;
+        position: relative;
+        top: -41px;
+        left: 96px;
+    }
+
+    .cost {
+        font-size: 18px;
+        width: 117px;
+        margin-top: -51px;
+        margin-left: -3px;
+        background-size: 80px;
+    }
+
+    .second_wrap {
+        padding-left: 73px;
+        padding-right: 73px;
+    }
+
+    .advantage {
+        padding-left: 10px;
+    }
+
+    .item {
+        font-size: 8px;
+    }
+
+    .item span {
+        font-size: 8px;
+    }
+
+    .prepayment_text {
+        font-size: 12px;
+        padding-left: 6px;
+    }
+
+    .prepayment {
+        font-size: 22px;
+        padding-left: 6px;
+    }
+
+    .payment_btn {
+        width: 125px;
+        height: 40px;
+        margin-left: 13px;
+        font-size: 8px;
+        padding: 9px 13px;
+        line-height: 12px;
+    }
+
+    .gift {
+        background: url('../img/gift.png')no-repeat left top / cover, #fff;
+        background-size: 100%;
+        width: 678px;
+        height: 223px;
+        margin: 37px auto;
+
+    }
+
+    .third_title {
+        font-size: 20px;
+    }
+
+    .third_text {
+        font-size: 12px;
+    }
+
+    .input_field {
+        font-size: 12px;
+        width: 268px;
+        height: 37.867px;
+
+    }
+
+    .order {
+        width: 268px;
+        height: 37.867px;
+
+    }
+
+    .btn_order {
+        font-size: 14px;
+        width: 268px;
+        height: 37.867px;
+        flex-shrink: 0;
+    }
+
+    .confidential {
+        font-size: 8px;
+        width: 225px;
+        margin-top: 156px;
+        padding-bottom: 29px;
+    }
+
+
+
+    .footer_logo {
+        width: 122px;
+        height: 55px;
+        margin: 0;
+        margin-left: 136px;
+    }
+
+    .footer_logo img {
+        width: 122px;
+        margin-left: 122px;
+    }
+
+    .footer_wrap {
+        padding-left: 82px;
+        margin: 0 auto;
+    }
+
+    .footer_text {
+        font-size: 14px;
+        width: 622px;
+        margin-left: 20px;
+        margin-top: 15px;
+
+    }
+
+    .legal {
+        font-size: 11px;
+        margin-left: 50px;
+        width: 558px;
+    }
+
+    .social {
+        padding: 43px 370px 54px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 320px;
+    }
+
+    .first {
+        background: url('../img/main_small.png')no-repeat center center /cover, #FECE00D4;
+    }
+
+    .header {
+        margin-left: 28px;
+    }
+
+    .header_logo {
+        display: none;
+    }
+
+    .header_logo_mobile {
+        display: block;
+    }
+
+    .main {
+        padding-left: 0;
+    }
+
+    .main_title {
+        font-size: 24px;
+        width: 209px;
+        font-weight: 400;
+    }
+
+    .main_text {
+        font-size: 14px;
+        width: 131px;
+    }
+
+    .main_text span {
+        font-size: 14px;
+        font-weight: bold;
+        width: 131px;
+    }
+
+    .main_left {
+        width: auto;
+    }
+
+    .main_data {
+        width: 200px;
+        margin-top: 25px;
+
+        flex-wrap: wrap;
+
+    }
+
+    .main_data_rect {
+        margin-bottom: 13px;
+        width: 173px;
+    }
+
+    .main_btn_wrap {
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        width: 264px;
+        height: 52.051px;
+    }
+
+    .btn_consult {
+        margin-left: 0;
+        margin-top: 9px;
+        padding-bottom: 38px;
+        padding-bottom: 0;
+    }
+
+    .second_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+
+    .second_title {
+        width: 257px;
+        font-size: 16px;
+        margin: 42px auto 24px;
+
+
+    }
+
+    .main_img {
+        display: none;
+    }
+
+    .second_title {
+        font-size: 16px;
+
+    }
+
+    .type {
+        width: 268px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .type_title {
+        font-size: 26px;
+    }
+
+    .price {
+        font-size: 50px;
+    }
+
+    .discount {
+        width: 69px;
+        height: 37px;
+        font-size: 18px;
+        position: relative;
+        top: -68px;
+        left: 183px;
+    }
+
+    .cost {
+        width: 109px;
+        font-size: 24px;
+        margin-top: -79px;
+        margin-left: 30px;
+        background-size: 80px;
+    }
+
+    .advantage {
+        padding-left: 35px;
+        height: auto;
+
+    }
+
+    .item {
+        font-size: 12px;
+    }
+
+    .item span {
+        font-size: 12px;
+    }
+
+    .prepayment_text {
+        font-size: 22px;
+        padding-left: 31px;
+    }
+
+    .prepayment {
+        font-size: 32px;
+        padding-left: 33px;
+    }
+
+    .payment_btn {
+        width: 220px;
+        height: 66px;
+        font-size: 14px;
+        line-height: 23px;
+        margin-left: 24px;
+
+    }
+
+    .payment_outside {
+        margin-bottom: 22px;
+    }
+
+    .gift {
+        background: url('../img/gift_small.jpg')no-repeat left top / cover, #fff;
+        width: 266px;
+        height: 87px;
+        margin-top: 17px;
+
+    }
+
+    .third_title {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .third_text {
+        width: auto;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .order {
+        margin-top: 7px;
+        border-radius: 10px;
+        width: 268px;
+        height: 37.867px;
+        font-size: 12px;
+    }
+
+    #success {
+        margin-top: 30px;
+    }
+
+    .footer_logo {
+        margin-left: 108px;
+    }
+
+    .footer_logo img {
+        margin-left: 0;
+    }
+
+    .footer_text {
+        font-size: 8px;
+        padding-left: 43px;
+        padding-right: 43px;
+        margin-left: 0;
+    }
+
+    .legal {
+        font-size: 8px;
+        padding-left: 43px;
+        padding-right: 43px;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .footer_wrap {
+        padding-left: 0;
+
+    }
+
+    .social {
+        width: 100%;
+        padding: 43px 120px 54px;
+
+    }
+}
